@@ -1,0 +1,112 @@
+/*
+==================================================
+Project:      [Agency Web Vue]
+Author:       [https://github.com/hamzaince6/]
+Version:      1.0.0
+Start Project:  [13.10.2024]
+==================================================
+*/
+
+/*--------------------------------------------------------------*/
+/* General CSS */
+/*--------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainBackground);
+    font-family: "Roboto Flex", sans-serif;
+}
+
+:root{
+    --mainBackground: #0F0F0F;
+}
+
+/*--------------------------------------------------------------*/
+/* AppHeader Components */
+/*--------------------------------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.header-logo{
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+.header-container{
+    margin: 24px 0 24px 0;
+    padding: 24px 24px 24px 50px;
+    border-radius: 16px;
+    border: 1px solid #1C1C21;
+    background:#1A1A1A;
+}
+
+.nav-container{
+    display: flex;
+    width: 82%;
+    gap: 16px;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-container a{
+    display: flex;
+    padding: 18px 24px;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    background: #0F0F0F;
+    color: #81807E;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.nav-container a:hover{
+    color: #E7BEB1;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
