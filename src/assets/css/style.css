@@ -11,6 +11,16 @@ Start Project:  [13.10.2024]
 /* General CSS */
 /*--------------------------------------------------------------*/
 
+:root{
+    --mainBackground: #0F0F0F;
+    --navbarBackground: #0F0F0F;
+    --navbarText: #81807E;
+    --navbarHover: #E7BEB1;
+    --navbarContact: #CE7D63;
+    --navbarContactText: #0F0F0F;
+    --homeBackground: #1A1A1A;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,10 +33,6 @@ html, body {
     height: 100%;
     background-color: var(--mainBackground);
     font-family: "Roboto Flex", sans-serif;
-}
-
-:root{
-    --mainBackground: #0F0F0F;
 }
 
 /*--------------------------------------------------------------*/
@@ -70,8 +76,8 @@ header {
     gap: 10px;
     text-decoration: none;
     border-radius: 12px;
-    background: #0F0F0F;
-    color: #81807E;
+    background:  var(--navbarBackground);
+    color: var(--navbarText);
     text-align: center;
     font-size: 18px;
     font-style: normal;
@@ -81,7 +87,7 @@ header {
 }
 
 .nav-container a:hover{
-    color: #E7BEB1;
+    color: var(--navbarHover);
     text-align: center;
     font-size: 18px;
     font-style: normal;
@@ -90,13 +96,35 @@ header {
     text-transform: uppercase;
 }
 
+.contact-btn {
+    background: var(--navbarContact) !important;
+    color: var(--navbarContactText) !important;
+}
 
+/*--------------------------------------------------------------*/
+/* HomePageHero Components */
+/*--------------------------------------------------------------*/
 
+.main-content{
+    display: flex;
+    padding: 100px 80px 180px 80px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    background: var(--homeBackground);
+}
 
-
-
-
-
+.main-content h1{
+    color: var(--Orange-95, #F9EFEC);
+    font-family: "Roboto Flex";
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 117px */
+    text-transform: uppercase;
+}
 
 
 
