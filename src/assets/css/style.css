@@ -50,8 +50,16 @@ html, body {
     margin: 0;
 }
 
+.global-small-space{
+    padding: 100px 0;
+}
+
 .global-space{
     padding: 120px 0;
+}
+
+.global-large-space{
+    padding: 160px 0;
 }
 
 /* Padding Top */
@@ -227,11 +235,10 @@ header {
 /*--------------------------------------------------------------*/
 
 .main-content {
-    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 80px 20px 80px;
+    padding: 100px 80px 100px 80px;
     gap: 30px;
     border-radius: 20px;
     flex: 1;
@@ -571,6 +578,198 @@ header {
 .about-card svg{
     margin: 0 10px 0 0;
 }
+
+/*--------------------------------------------------------------*/
+/* HomePageServices Components */
+/*--------------------------------------------------------------*/
+
+.services-container {
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 24px;
+    border: 2px solid #1F1F1F;
+    box-sizing: border-box;
+}
+
+.services-title {
+    display: flex;
+    width: 100%;
+    padding: 50px 30px 50px 50px;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+    background: var(--homeBackground);
+    box-sizing: border-box;
+}
+
+.services-title h2{
+    color: var(--generalTitleColor);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+
+.service-box {
+    display: flex;
+    width: 100%;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 14px;
+    background: #1A1A1A;
+}
+
+.service-box-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.service-box-head-icon{
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    background: var(--homeBackground);
+}
+
+.service-box-head-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.service-box-head-icon-container span{
+    color: var(--generalTitleColor);
+    font-size: 30px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.service-box-head a{
+    color: var(--generalTextColor);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.service-box-head a svg{
+    margin: 0 10px 0 0;
+}
+
+.service-box-body p{
+    align-self: stretch;
+    color: var(--generalTextColor);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 50px 0 20px 0;
+    line-height: 150%;
+}
+
+.service-box-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.service-box-footer span{
+    align-self: stretch;
+    color: var(--generalTitleColor);
+    text-align: right;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------*/
+/* HomePageWorks Components */
+/*--------------------------------------------------------------*/
+
+.works-title{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--homeBackground);
+    margin: 0 0 20px 0;
+}
+
+.works-title h2{
+    color: var(--generalTitleColor);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.works-title a{
+    color: var(--generalTextColor);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.works-title a svg{
+    margin: 0 10px 0 0;
+}
+
+.works-container{
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 2px solid #1F1F1F;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

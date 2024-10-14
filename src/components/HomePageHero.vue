@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="col-md-4 main-image-content p-0">
-          <img src="../assets/img/homepage/main-2.jpg" class="img-fluid" alt="">
+          <img src="assets/img/homepage/main-2.jpg" class="img-fluid" alt="">
           <div class="circle">
             <div class="circle-background"></div> <!-- Arka plandaki siyah daire -->
             <svg xmlns="http://www.w3.org/2000/svg" width="118" height="134" viewBox="0 0 118 134" fill="none">
